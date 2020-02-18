@@ -523,7 +523,7 @@
             "type": "string"
           },
           "checkingDate": {
-            "type": "string"
+            "type": "datetime"
           },
           "event": {
             "required": [
@@ -608,25 +608,19 @@
                 "type": "string"
               }
             }
-          },
-          "hour": {
-            "type": "time"
           }
         }
       },
       "NewChecking": {
         "properties": {
           "checkingDate": {
-            "type": "string"
+            "type": "datetime"
           },
           "event": {
             "type": "string"
           },
           "parent": {
             "type": "string"
-          },
-          "hour": {
-            "type": "time"
           }
         }
       }

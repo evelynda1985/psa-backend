@@ -11,7 +11,7 @@
   "attributes": {
     "checkingDate": {
       "required": false,
-      "type": "date"
+      "type": "datetime"
     },
     "event": {
       "model": "event"
@@ -19,9 +19,6 @@
     "parent": {
       "plugin": "users-permissions",
       "model": "user"
-    },
-    "hour": {
-      "type": "time"
     }
   }
 }
