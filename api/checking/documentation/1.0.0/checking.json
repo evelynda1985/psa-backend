@@ -516,8 +516,7 @@
     "schemas": {
       "Checking": {
         "required": [
-          "id",
-          "checkingDate"
+          "id"
         ],
         "properties": {
           "id": {
@@ -616,9 +615,6 @@
         }
       },
       "NewChecking": {
-        "required": [
-          "checkingDate"
-        ],
         "properties": {
           "checkingDate": {
             "type": "string"
